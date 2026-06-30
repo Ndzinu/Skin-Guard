@@ -41,7 +41,7 @@ export default function AnalysisResult({ result, imageUrl, onReset, onViewLibrar
         <div>
           <h4 className="text-sm font-bold text-red-900 uppercase tracking-wide">Critical Medical Disclaimer</h4>
           <p className="text-xs text-red-700 leading-relaxed mt-0.5">
-            This screening tool is an experimental machine learning prototype. It is designed to support awareness and provide educational references prior to clinical consultations. 
+            This screening tool is an experimental machine learning prototype. It is designed to support awareness and provide educational references prior to clinical consultations.
             <strong> It does NOT constitute medical diagnosis, professional advice, or treatment.</strong> If your condition is bleeding, painful, spreading rapidly, or you suspect skin cancer, consult a certified dermatologist or emergency services immediately.
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function AnalysisResult({ result, imageUrl, onReset, onViewLibrar
               {isTeachableMachine && (
                 <div className="absolute top-3 left-3 bg-blue-950/90 backdrop-blur-xs text-blue-300 text-3xs font-mono py-1.5 px-3 rounded-full border border-blue-800/80 uppercase tracking-wider flex items-center gap-1">
                   <span className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-ping"></span>
-                  Teachable Machine Active
+                  Scan Active
                 </div>
               )}
             </div>

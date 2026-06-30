@@ -137,8 +137,8 @@ export default function App() {
       }
 
       setAnalysisStatus("Loading Teachable Machine Model...");
-      const modelURL = "https://teachablemachine.withgoogle.com/models/EjK7KplO-/model.json";
-      const metadataURL = "https://teachablemachine.withgoogle.com/models/EjK7KplO-/metadata.json";
+      const modelURL = "https://teachablemachine.withgoogle.com/models/j5vLvXOmX/model.json";
+      const metadataURL = "https://teachablemachine.withgoogle.com/models/j5vLvXOmX/metadata.json";
 
       // Load model once and keep in cache
       if (!cachedModel) {

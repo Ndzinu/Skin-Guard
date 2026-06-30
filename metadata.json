@@ -1,0 +1,6 @@
+{
+  "name": "Skin Guard AI",
+  "description": "Secure, privacy-preserving AI screening prototype for 11 targeted skin disease conditions featuring multi-modal browser-driven analysis.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

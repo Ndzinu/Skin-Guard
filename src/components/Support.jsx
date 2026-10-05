@@ -39,7 +39,7 @@ export default function Support() {
     <div className="space-y-12 animate-fade-in" id="support-page">
       {/* Hero Header Banner */}
       <div className="bg-linear-to-r from-blue-600 via-blue-800 to-slate-950 text-white rounded-3xl p-8 md:p-12 shadow-xl relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-blue-500/20 via-transparent to-transparent opacity-60"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,var(--tw-gradient-stops))] from-blue-500/20 via-transparent to-transparent opacity-60"></div>
         <div className="relative z-10 max-w-3xl space-y-4">
           <span className="bg-blue-500/20 text-blue-200 border border-blue-400/30 text-2xs uppercase tracking-widest px-3 py-1 rounded-full font-mono font-bold">
             Support, Mission & Inquiry Hub

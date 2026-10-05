@@ -158,7 +158,7 @@ export default function AnalysisResult({ result, imageUrl, onReset, onViewLibrar
           </div>
 
           {/* Self Care & Pre-care Steps */}
-          <div className="bg-white dark:bg-slate-900 rounded-2xl border border-blue-100 dark:border-blue-900 bg-blue-50/5 dark:bg-blue-950/5 p-6 shadow-xs space-y-4">
+          <div className="bg-white dark:bg-slate-900 rounded-2xl border border-blue-100 dark:border-blue-900 p-6 shadow-xs space-y-4">
             <h3 className="text-sm font-bold text-blue-800 dark:text-blue-200 uppercase tracking-wider flex items-center gap-2">
               <CheckCircle className="text-blue-500" size={18} /> Pre-consultation Self-Care
             </h3>

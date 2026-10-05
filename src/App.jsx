@@ -9,7 +9,7 @@ import Support from "./components/Support.jsx";
 import { Camera, Upload, RefreshCw, Activity, Sparkles, ShieldAlert } from "lucide-react";
 import { diseases } from "./data/diseases.js";
 
-// Global cache for Teachable Machine model to avoid re-loading on each scan
+// Global cache for  Machine model to avoid re-loading on each scan
 let cachedModel = null;
 
 function findMatchingDisease(classLabel) {
@@ -224,7 +224,7 @@ export default function App() {
           <div className="max-w-4xl mx-auto space-y-8" id="screener-view-tab">
             {isAnalyzing ? (
               /* Immersive Scanning State */
-              <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-12 text-center shadow-lg flex flex-col items-center justify-center space-y-6 min-h-[450px]" id="analyzing-state">
+              <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-12 text-center shadow-lg flex flex-col items-center justify-center space-y-6 min-h-112.5" id="analyzing-state">
                 <div className="relative w-32 h-32 flex items-center justify-center">
                   {/* Glowing Radar Waves */}
                   <div className="absolute inset-0 bg-blue-500/10 rounded-full animate-ping"></div>
@@ -265,7 +265,7 @@ export default function App() {
 
                 {/* Stunning Modern Hero Section */}
                 <div className="bg-linear-to-r from-blue-600 via-blue-800 to-slate-950 text-white rounded-3xl p-8 md:p-12 shadow-xl relative overflow-hidden">
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-blue-500/20 via-transparent to-transparent opacity-60"></div>
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,var(--tw-gradient-stops))] from-blue-500/20 via-transparent to-transparent opacity-60"></div>
                   <div className="relative z-10 max-w-3xl space-y-5">
                     <span className="bg-blue-500/20 text-blue-200 border border-blue-400/30 text-2xs uppercase tracking-widest px-3 py-1 rounded-full font-mono font-bold">
                       Clinical AI Screening Prototype

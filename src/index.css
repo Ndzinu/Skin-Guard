@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 @import "tailwindcss";
 
-@variant dark (&:where(.dark, .dark *));
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   --animate-progress: progress 4s ease-in-out infinite;
@@ -12,18 +12,42 @@
   --font-sora: "Sora", sans-serif;
 
   @keyframes progress {
-    0% { width: 0%; }
-    50% { width: 75%; }
-    100% { width: 100%; }
+    0% {
+      width: 0%;
+    }
+
+    50% {
+      width: 75%;
+    }
+
+    100% {
+      width: 100%;
+    }
   }
+
   @keyframes pulse-slow {
-    0%, 100% { opacity: 1; filter: brightness(1); }
-    50% { opacity: 0.9; filter: brightness(1.05); }
+
+    0%,
+    100% {
+      opacity: 1;
+      filter: brightness(1);
+    }
+
+    50% {
+      opacity: 0.9;
+      filter: brightness(1.05);
+    }
   }
+
   @keyframes fade-in {
-    from { opacity: 0; transform: translateY(12px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
-
-
